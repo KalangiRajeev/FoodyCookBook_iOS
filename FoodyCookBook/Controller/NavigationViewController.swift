@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  NavigationViewController.swift
 //  FoodyCookBook
 //
 //  Created by Admin on 26/04/21.
@@ -8,13 +8,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class NavigationViewController: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        navigationBar.prefersLargeTitles = true
     }
-
-
 }
-
